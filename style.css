@@ -1,0 +1,151 @@
+h1 {
+  color: rgb(244, 6, 22);
+  font-family: verdana;
+  font-size: 400%;
+  }
+body {
+  background: #000;
+}
+
+button {
+  position: absolute;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  
+  height: 4em;
+  width: 7em;
+  
+  background: #444;
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 3px solid orange;
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 50%;
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+  
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:5px;
+  color: #333333;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+}
+
+
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size:20px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    text-align: justify;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+* { box-sizing: border-box }
+
+body{
+  margin:0;
+  padding:0;
+  color: white;
+  font-family:sans-serif;
+  background-color: rgb(184, 200, 80);
+/*   font-size:160%; */
+}
+
+.horizontal-gradient {
+  background: linear-gradient(to right, blue, pink);
+}
+div {
+  text-align: left;
+}
+
+#main {
+  /* variables */
+  --content-background: hsl(51, 40%, 96%);
+  --contrast-background: hsl(51, 40%, 87%);
+  
+  margin: 10px;
+  background-color: var(--content-background, gray);
+  display: flex;
+  flex-direction: column;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2{ 
+  color: #ad4a0d;
+  font-family: verdana;
+  font-size: 300%;
+  text-align:"center"
+}
+
+
